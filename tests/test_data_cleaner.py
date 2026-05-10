@@ -225,8 +225,5 @@ class TestDataCleaner(unittest.TestCase):
             cleaner.remove_outliers_iqr(df,"city",1.5)
 
 
-
-
-
 if __name__ == "__main__":
     unittest.main()
